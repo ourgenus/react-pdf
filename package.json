@@ -1,6 +1,6 @@
 {
   "name": "@genus/react-pdf",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/entry.js",
   "source": "src/entry.js",
@@ -82,10 +82,10 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
+    "@genus/pdfjs-dist": "2.1.267",
     "lodash.once": "^4.1.1",
     "make-event-props": "^1.1.0",
     "merge-class-names": "^1.1.1",
-    "@genus/pdfjs-dist": "2.1.267",
     "prop-types": "^15.6.2"
   },
   "devDependencies": {
