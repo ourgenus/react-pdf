@@ -109,7 +109,7 @@ Create React App uses Webpack under the hood, but instructions for Webpack will 
 
 #### Standard (Browserify and others)
 
-If you use Browserify or other bundling tools, you will have to make sure on your own that `pdf.worker.js` file from `pdfjs-dist/build` is copied to your project's output folder.
+If you use Browserify or other bundling tools, you will have to make sure on your own that `pdf.worker.js` file from `@genus/pdfjs-dist/build` is copied to your project's output folder.
 
 Alternatively, you could use `pdf.worker.js` from an external CDN:
 
@@ -138,7 +138,7 @@ then you would also need to include cMaps in your build and tell React-PDF where
 
 #### Copying cMaps
 
-First, you need to copy cMaps from `pdfjs-dist` (React-PDF's dependency - it should be in your `node_modules` if you have React-PDF installed). cMaps are located in `pdfjs-dist/cmaps`.
+First, you need to copy cMaps from `@genus/pdfjs-dist` (React-PDF's dependency - it should be in your `node_modules` if you have React-PDF installed). cMaps are located in `@genus/pdfjs-dist/cmaps`.
 
 ##### Webpack
 
@@ -159,7 +159,7 @@ and in plugins section of your config, add the following:
 ```js
 new CopyWebpackPlugin([
   {
-    from: 'node_modules/pdfjs-dist/cmaps/',
+    from: 'node_modules/@genus/pdfjs-dist/cmaps/',
     to: 'cmaps/'
   },
 ]),

@@ -1,4 +1,4 @@
-import { RenderingCancelledException } from 'pdfjs-dist';
+import { RenderingCancelledException } from '@genus/pdfjs-dist';
 
 export default {
   _pdfInfo: {

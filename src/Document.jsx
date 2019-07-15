@@ -5,7 +5,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import makeEventProps from 'make-event-props';
 import mergeClassNames from 'merge-class-names';
-import pdfjs, { PDFDataRangeTransport } from 'pdfjs-dist';
+import pdfjs, { PDFDataRangeTransport } from '@genus/pdfjs-dist';
 
 import DocumentContext from './DocumentContext';
 

@@ -1,4 +1,4 @@
-import pdfjs from 'pdfjs-dist';
+import pdfjs from '@genus/pdfjs-dist';
 import Document from './Document';
 import Outline from './Outline';
 import Page from './Page';
