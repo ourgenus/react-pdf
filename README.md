@@ -1,3 +1,5 @@
+# ⚠️ Fork usage should be removed once https://github.com/wojtekmaj/react-pdf/issues/280 will be fixed
+
 [![npm](https://img.shields.io/npm/v/react-pdf.svg)](https://www.npmjs.com/package/react-pdf) ![downloads](https://img.shields.io/npm/dt/react-pdf.svg) ![build](https://img.shields.io/travis/wojtekmaj/react-pdf/master.svg) ![dependencies](https://img.shields.io/david/wojtekmaj/react-pdf.svg) ![dev dependencies](https://img.shields.io/david/dev/wojtekmaj/react-pdf.svg) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 # React-PDF
@@ -5,8 +7,8 @@
 Display PDFs in your React app as easily as if they were images.
 
 ## tl;dr
-* Install by executing `npm install react-pdf` or `yarn add react-pdf`.
-* Import by adding `import { Document } from 'react-pdf'`.
+* Install by executing `npm install @genus/react-pdf` or `yarn add @genus/react-pdf`.
+* Import by adding `import { Document } from '@genus/react-pdf'`.
 * Use by adding `<Document file="..." />`. `file` can be a URL, base64 content, Uint8Array, and more.
 * Put `<Page />` components inside `<Document />` to render pages.
 
@@ -41,7 +43,7 @@ If you use older version of React, please refer to the table below to find suita
 
 ### Installation
 
-Add React-PDF to your project by executing `npm install react-pdf` or `yarn add react-pdf`.
+Add React-PDF to your project by executing `npm install @genus/react-pdf` or `yarn add @genus/react-pdf`.
 
 ### Usage
 
@@ -49,7 +51,7 @@ Here's an example of basic usage:
 
 ```js
 import React, { Component } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from '@genus/react-pdf';
 
 class MyApp extends Component {
   state = {
