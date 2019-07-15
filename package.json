@@ -120,7 +120,8 @@
     "LICENSE",
     "README.md",
     "dist/",
-    "src/"
+    "src/",
+    "types/"
   ],
   "repository": {
     "type": "git",
